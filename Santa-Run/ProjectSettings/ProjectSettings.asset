@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 23
-  productGUID: 95597e3efc4272e468b31251325d9d6c
+  productGUID: a10b8feb1257c2141befcdb2529f8148
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,8 +13,8 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: 2DShooter
-  defaultCursor: {fileID: 2800000, guid: 97f38df490af6874da749b2924f77c10, type: 3}
+  productName: Santa-Run
+  defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
   m_ShowUnitySplashScreen: 1
@@ -844,11 +844,11 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 0
-  cloudProjectId: 
+  cloudProjectId: 861bc703-79de-4e60-862d-19a1771c46f3
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: Santa-Run
+  organizationId: jamesfothergill
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 
