@@ -1,54 +1,57 @@
-# Build 6 Games with Unity3D
+# Unity Mini Games
 
-This repository contains a collection of six beginner-friendly Unity3D game projects. Each project is organized as a separate Unity project folder, making it easy to open and explore individually.
+This repository contains a collection of small Unity3D game projects, each organized as its own standalone Unity project. These mini-games are ideal for learning, prototyping, or adapting into your own projects.
 
-## Included Games
+## Projects Included
 
-- **Block Dodger**: Dodge falling blocks for as long as you can.
-- **Ball Coin Collector**: Collect coins with a ball, avoid obstacles, and aim for a high score.
-- **Cube Runner**: Navigate a cube through a series of obstacles and survive as long as possible.
-- **Egg Catcher**: Catch falling eggs without letting any drop!
-- **Maze Ball**: Guide a ball through a maze to reach the goal.
-- **Dino Run**: Control a dinosaur and avoid obstacles, inspired by the classic endless runner.
+- **Tank**: A simple 2D game demonstrating player movement, collision, scoring, and scene management.
+- **Barry's Bouncing Balls**: (Project included in structure; description can be added based on gameplay).
+- **Santa Run**: (Project included in structure; description can be added based on gameplay).
+
+Each folder contains an independent Unity project with its own `Assets` and `ProjectSettings` directories.
+
+## Example: Tank Project
+
+The `Tank` game demonstrates:
+- 2D movement using `Rigidbody2D`
+- Sprite flipping based on movement direction
+- Score tracking with the UI
+- Object destruction via input or collision
+- Scene restarting on win condition
 
 ## How to Use
 
-1. **Clone this Repository**
+1. **Clone the Repository**
     ```sh
-    git clone https://github.com/Meowmixforme/Build-6-Games-with-Unity3D.git
+    git clone https://github.com/Meowmixforme/Unity-Mini-Games.git
     ```
 
-2. **Open a Game Project in Unity**
-    - Each game is in its own folder (e.g., `Block-Dodger`, `Cube-Runner`, etc.).
-    - Open Unity Hub and add the desired project folder.
+2. **Open a Project in Unity**
+    - Use [Unity Hub](https://unity.com/download) to add the desired project folder (e.g., `Tank`) as a new project.
+    - All games are developed with **Unity 2021.3.0f1**. Use this version for best compatibility.
 
-3. **Unity Version**
-    - All projects were created with **Unity 2021.3.0f1**. Use this version (or newer in LTS 2021.3.x) for best compatibility.
-
-4. **Play & Explore**
-    - Open the `Assets/Scenes` directory in the selected project to find and run the main scene.
-    - Check out the `Assets/Scripts` folder for gameplay logic.
+3. **Run and Explore**
+    - Open the main scene in the project’s `Assets/Scenes` directory and press Play.
 
 ## Project Structure
 
 ```
-Block-Dodger/
-Ball-Coin-Collector/
-Cube-Runner/
-Egg-Catcher/
-Maze-Ball/
-Dino-Run/
+Tank/
+Barry's-Bouncing-Balls/
+Santa-Run/
+...
 ```
-Each folder is a stand-alone Unity project.
+Each folder is a separate Unity project.
 
-## Dependencies
+## Dependencies & Assets
 
-- [TextMesh Pro](https://docs.unity3d.com/Packages/com.unity.textmeshpro@3.0/manual/index.html) is used for advanced text rendering in all games.
-- Some games use freely available fonts and emoji sets. See the respective `Assets/TextMesh Pro/Fonts` and `Assets/TextMesh Pro/Sprites` folders for license details.
+- **TextMesh Pro** is used for advanced text rendering.
+- Some games use the LiberationSans font (under the [SIL Open Font License](https://scripts.sil.org/OFL)).
+- Emojis provided by [EmojiOne](https://www.emojione.com/) (see respective attribution files).
 
 ## License
 
-- Fonts included are under the [SIL Open Font License](https://scripts.sil.org/OFL).
-- Emoji assets are from [EmojiOne](https://www.emojione.com/) (see their licensing terms).
-- All game code and assets in this repository are free to use for learning and non-commercial projects. For other uses, please attribute the original author or check individual asset licenses where applicable.
+- Font assets are under the SIL Open Font License.
+- Emoji assets have their own licensing terms (see the `EmojiOne Attribution.txt` files).
+- All scripts and original assets in this repository are free to use for learning and non-commercial purposes. Please attribute the original author or check licenses for third-party assets.
 
