@@ -40,6 +40,7 @@ The `Tank` game demonstrates:
 Tank/
 Barry's-Bouncing-Balls/
 Santa-Run/
+2DShooter/
 ...
 ```
 Each folder is a separate Unity project.
