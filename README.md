@@ -5,8 +5,8 @@ This repository contains a collection of small Unity3D game projects, each organ
 ## Projects Included
 
 - **Tank**: A simple 2D game demonstrating player movement, collision, scoring, and scene management.
-- **Barry's Bouncing Balls**: (Project included in structure; description can be added based on gameplay).
-- **Santa Run**: (Project included in structure; description can be added based on gameplay).
+- **Barry's Bouncing Balls**: A Simple Ball Bouncing Game.
+- **Santa Run**: A 2D Platformer Game.
 - **2DShooter**: A simple 2D Shooter Game.
 
 Each folder contains an independent Unity project with its own `Assets` and `ProjectSettings` directories.
