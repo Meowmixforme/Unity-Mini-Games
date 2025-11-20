@@ -51,9 +51,4 @@ Each folder is a separate Unity project.
 - Some games use the LiberationSans font (under the [SIL Open Font License](https://scripts.sil.org/OFL)).
 - Emojis provided by [EmojiOne](https://www.emojione.com/) (see respective attribution files).
 
-## License
-
-- Font assets are under the SIL Open Font License.
-- Emoji assets have their own licensing terms (see the `EmojiOne Attribution.txt` files).
-- All scripts and original assets in this repository are free to use for learning and non-commercial purposes. Please attribute the original author or check licenses for third-party assets.
 
